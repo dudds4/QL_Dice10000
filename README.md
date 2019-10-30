@@ -32,3 +32,7 @@ The main components of this repo are:
  - dice_game.py defines a DiceGame object which allows players (policies) to play against one another. Additionally contains logic for generating all possible combinations of combinations from a dice roll.
  - qlplayer.py and simpleplayer.py define some objects which implement policies for playing the game.
  - dice.py is a script in which I generate, train, and compare a couple different policies.
+ 
+ ## Results
+ 
+Currently the q-learning player does successfully learn the game, and beats many simple policies. However it's not quite done yet; I'm not satisfied since it can still be beaten by at least one basic policy. Many decisions were made along the way to constrain the problem and the q-learner, since this particular game does not lend well to run-of-the-mill q-learning.

@@ -1,6 +1,6 @@
 # QL_Dice10000
 
-This project applies Q-Learning, a type of reinforcement learning, to the dice 10,000 game.
+This project applies q-learning, a type of reinforcement learning, to the dice 10,000 game. You can try playing against the currently generated player by cloning the repository, and running tryme.py (you will need numpy installed). The player is certainly not perfect (yet) but it does learn to play the game pretty well.
 
 ## The Game
 
